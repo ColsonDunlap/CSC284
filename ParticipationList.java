@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class ParticipationList {
 
-   public static void main(String[] args) {
+   public static void main(String[] args) { 
       
       ArrayList<Student> students = new ArrayList<>();
       
@@ -28,6 +28,7 @@ public class ParticipationList {
       students.add(new Student("Morgan","Moncur")); 
       students.add(new Student("Danielle","David"));
       students.add(new Student("Nick", "Kolodij"));
+	  students.add(new Student("Triston", "Miller"));
 
       //Sort the list by last name
       students.sort((o1,o2) -> o1.getLastName().compareTo(o2.getLastName()));
